@@ -30,21 +30,6 @@ export const slideContent = [
     },
   },
   {
-    slideType: Planning,
-    transition: "concave", // zoom, fade, slide, convex, concave, zoom-in, zoom-out, none
-    data: {
-      title: {
-        content: "Agenda",
-        classes: "large-heading",
-      },
-      list: [
-        "Introductie",
-        "Waarom",
-        "Historie",
-      ],
-    },
-  },
-  {
     slideType: LargeText,
     transition: "concave", // zoom, fade, slide, convex, concave, zoom-in, zoom-out, none
     data: {
