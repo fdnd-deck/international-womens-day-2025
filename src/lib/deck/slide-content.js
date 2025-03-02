@@ -151,12 +151,12 @@ export const slideContent = [
       images: [
         {
           type: 'image',
-          src: '/media/ada.jpg',
+          src: './media/ada.jpg',
           alt: 'Ada Lovelace',
         },
         {
           type: 'image',
-          src: '/media/grace.jpg',
+          src: './media/grace.jpg',
           alt: 'Grace Hopper',
         },
       ],
@@ -183,12 +183,12 @@ export const slideContent = [
       images: [
         {
           type: 'image',
-          src: '/media/hedy.jpg',
+          src: './media/hedy.jpg',
           alt: 'Hedy Lamarr',
         },
         {
           type: 'image',
-          src: '/media/mary.webp',
+          src: './media/mary.webp',
           alt: 'Mary Jackson',
         },
       ]
@@ -320,7 +320,7 @@ export const slideContent = [
       images: [
         {
           type: 'image',
-          src: '/media/bugs.gif',
+          src: './media/bugs.gif',
           alt: 'Bugs Bunny holding stacks of money',
         },
       ],
@@ -337,7 +337,7 @@ export const slideContent = [
       images: [
         {
           type: 'image',
-          src: '/media/mac.jpg',
+          src: './media/mac.jpg',
           alt: 'Macintosh',
         },
         {}
