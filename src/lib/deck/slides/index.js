@@ -4,3 +4,4 @@ export { default as Planning } from "./Planning.svelte";
 export { default as Quote } from "./Quote.svelte";
 export { default as TextColumns } from "./TextColumns.svelte";
 export { default as LargeText } from "./LargeText.svelte";
+export { default as FlexibleText } from "./FlexibleText.svelte";

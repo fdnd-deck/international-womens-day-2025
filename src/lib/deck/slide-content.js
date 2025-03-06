@@ -7,6 +7,7 @@ import {
   TextColumns,
   Quote,
   LargeText,
+  FlexibleText,
 } from "./slides/index.js";
 
 export const slideContent = [
@@ -143,72 +144,6 @@ export const slideContent = [
     },
     notes: "Volgens onderzoek komt dit dus door het grote aantal mannen in de wetenschap, zowel in bedrijfsleven als universiteiten en hogescholen zelf."
   },
-
-  {
-    slideType: PhotoCollage,
-    transition: "concave", // zoom, fade, slide, convex, concave, zoom-in, zoom-out, none
-    data: {
-      images: [
-        {
-          type: 'image',
-          src: './media/ada.jpg',
-          alt: 'Ada Lovelace',
-        },
-        {
-          type: 'image',
-          src: './media/grace.jpg',
-          alt: 'Grace Hopper',
-        },
-      ],
-    },
-    notes: `
-    <p>
-    Ada Lovelace wordt gezien als de eerste programmeur ter wereld, ze was een Engelse wiskundige en
-    werd geboren in 1815. Ze was de eerste persoon die inzag dat een computer gebruikt kon worden voor 
-    meer dan alleen rekenen.
-    </p>
-    <p>
-    Grace Hopper was een Amerikaanse computerwetenschapper.
-    Ze ontwikkelde de eerste compiler voor een computer die wiskundige code vertaalde naar code die
-    machines konden uitvoeren. Ze staat ook bekend als Grandma COBOL, een computertaal die nog steeds gebruikt
-    wordt in Amerika voor social security en waar je aan kan zien dat Elon Musk de ballen verstand heeft van code.
-    In COBOL wordt 20 mei 1875 vaak gebruikt als referentie punt wanneer een geboortedatum onbekend is. Hij 
-    claimde vervolgens dat er 150 jarige mensen bestonden die uitkeringen kregen.
-    </p>`
-  },
-  {
-    slideType: PhotoCollage,
-    transition: "concave", // zoom, fade, slide, convex, concave, zoom-in, zoom-out, none
-    data: {
-      images: [
-        {
-          type: 'image',
-          src: './media/hedy.jpg',
-          alt: 'Hedy Lamarr',
-        },
-        {
-          type: 'image',
-          src: './media/mary.webp',
-          alt: 'Mary Jackson',
-        },
-      ]
-    },
-    notes: `
-    <p style="font-size: 1rem;">
-    Hedy Lamarr was een Oostenrijkse actrice en uitvinder. Ze ontwikkelde samen met George Antheil aan
-    het begin van de tweede wereld oorlog een techniek voor het versleutelen van communicatie met behulp
-    van 'frequency hopping' zodat het signaal niet kon worden onderschept. Iets dat later is gebruikt voor 
-    de ontwikkeling van WiFi. Ze is tijdens haar leven wel erkent met prijzenvoor haar bijdrages maar ze heeft
-    ze nooit in ontvangst genomen omdat ze inmiddels door plastische chrirurgie erg onzeker was geworden. Bij haar dood 
-    in 2000 werd vooral haar schoonheid beschreven en was er weinig aandacht voor haar bijdrages.
-    </p>
-    <p style="font-size: 1rem;">
-    Mary Jackson was een Amerikaanse wiskundige en werkte tijdens de segregatie in de VS voor NASA. Ze werkte samen met Katherine Johnson en Dorothy Vaughan aan project Mercury, het eerste ruimtevaart programma dat een mens in de baan van de aarde wilde brengen.  Ze was een leider
-    in het zorgen voor betere kansen voor toekomstige generaties. Zij was de eerste zwarte vrouwelijke ingenieur bij NASA.
-    <br>
-    </p>
-    `
-  },
   {
     slideType: Quote,
     transition: "concave-in fade-out", // zoom, fade, slide, convex, concave, zoom-in, zoom-out, none
@@ -320,6 +255,71 @@ export const slideContent = [
       images: [
         {
           type: 'image',
+          src: './media/ada.jpg',
+          alt: 'Ada Lovelace',
+        },
+        {
+          type: 'image',
+          src: './media/grace.jpg',
+          alt: 'Grace Hopper',
+        },
+      ],
+    },
+    notes: `
+    <p>
+    Ada Lovelace wordt gezien als de eerste programmeur ter wereld, ze was een Engelse wiskundige en
+    werd geboren in 1815. Ze was de eerste persoon die inzag dat een computer gebruikt kon worden voor 
+    meer dan alleen rekenen.
+    </p>
+    <p>
+    Grace Hopper was een Amerikaanse computerwetenschapper.
+    Ze ontwikkelde de eerste compiler voor een computer die wiskundige code vertaalde naar code die
+    machines konden uitvoeren. Ze staat ook bekend als Grandma COBOL, een computertaal die nog steeds gebruikt
+    wordt in Amerika voor social security en waar je aan kan zien dat Elon Musk de ballen verstand heeft van code.
+    In COBOL wordt 20 mei 1875 vaak gebruikt als referentie punt wanneer een geboortedatum onbekend is. Hij 
+    claimde vervolgens dat er 150 jarige mensen bestonden die uitkeringen kregen.
+    </p>`
+  },
+  {
+    slideType: PhotoCollage,
+    transition: "concave", // zoom, fade, slide, convex, concave, zoom-in, zoom-out, none
+    data: {
+      images: [
+        {
+          type: 'image',
+          src: './media/hedy.jpg',
+          alt: 'Hedy Lamarr',
+        },
+        {
+          type: 'image',
+          src: './media/mary.webp',
+          alt: 'Mary Jackson',
+        },
+      ]
+    },
+    notes: `
+    <p style="font-size: 1rem;">
+    Hedy Lamarr was een Oostenrijkse actrice en uitvinder. Ze ontwikkelde samen met George Antheil aan
+    het begin van de tweede wereld oorlog een techniek voor het versleutelen van communicatie met behulp
+    van 'frequency hopping' zodat het signaal niet kon worden onderschept. Iets dat later is gebruikt voor 
+    de ontwikkeling van WiFi. Ze is tijdens haar leven wel erkent met prijzenvoor haar bijdrages maar ze heeft
+    ze nooit in ontvangst genomen omdat ze inmiddels door plastische chrirurgie erg onzeker was geworden. Bij haar dood 
+    in 2000 werd vooral haar schoonheid beschreven en was er weinig aandacht voor haar bijdrages.
+    </p>
+    <p style="font-size: 1rem;">
+    Mary Jackson was een Amerikaanse wiskundige en werkte tijdens de segregatie in de VS voor NASA. Ze werkte samen met Katherine Johnson en Dorothy Vaughan aan project Mercury, het eerste ruimtevaart programma dat een mens in de baan van de aarde wilde brengen.  Ze was een leider
+    in het zorgen voor betere kansen voor toekomstige generaties. Zij was de eerste zwarte vrouwelijke ingenieur bij NASA.
+    <br>
+    </p>
+    `
+  },
+  {
+    slideType: PhotoCollage,
+    transition: "concave", // zoom, fade, slide, convex, concave, zoom-in, zoom-out, none
+    data: {
+      images: [
+        {
+          type: 'image',
           src: './media/bugs.gif',
           alt: 'Bugs Bunny holding stacks of money',
         },
@@ -391,13 +391,26 @@ export const slideContent = [
     transition: "fade-in concave-out", // zoom, fade, slide, convex, concave, zoom-in, zoom-out, none
     data: {
       title: {
-        content: "Wat kan jij doen?",
+        content: "Wat kunnen we hieraan doen?",
         classes: "xlarge-heading",
       }
     },
     notes: `
     Kijk naar je eigen biases, moedig vrouwen in jouw omgeving aan om in de techniek te komen.
-    Wordt zelf een rolmodel.
+    Wordt zelf een rolmodel. En pas op met microagressies.
+    `
+  },
+  {
+    slideType: LargeText,
+    transition: "concave", // zoom, fade, slide, convex, concave, zoom-in, zoom-out, none
+    data: {
+      title: {
+        content: "Je hoeft niet alles hardop te zeggen.",
+        classes: "xlarge-heading",
+      }
+    },
+    notes: `
+    Bijna altijd goedbedoeld, maar voelt nog steeds kut. Elke baan die ik heb gehad, bij elke mijlpaal in mijn carriere, krijg ik te horen dat ik een vrouw ben. Klopt inderdaad, maar zou chill zijn als er minder werd geinsinueerd dat mijn prestaties alleen maar door mijn gender komen.
     `
   },
   {
